@@ -7,7 +7,7 @@ const { count } = require('./model');
 
 
 //Connect to Mongoose
-mongoose.connect('mongodb://localhost/LanisterPay'
+mongoose.connect('mongodb+srv://seyiadmin:seyiadmin@cluster0.dkvlt.mongodb.net/lanisterpay?authSource=admin&replicaSet=atlas-xnqpr7-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true'
 , (err)=> {
     if(err){
         console.log(`Database could not connect because of error : ${err.message}`)
