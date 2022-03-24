@@ -7,7 +7,7 @@ const { count } = require('./model');
 
 
 //Connect to Mongoose
-mongoose.connect('mongodb:localhost//lanisterpay'
+mongoose.connect('mongodb://localhost/lanisterpay'
 , (err)=> {
     if(err){
         console.log(`Database could not connect because of error : ${err.message}`)
